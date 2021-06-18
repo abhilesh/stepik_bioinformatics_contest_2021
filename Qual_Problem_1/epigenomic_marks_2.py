@@ -50,7 +50,6 @@ def test_splitter(fin_lines):
 
 if __name__ == "__main__":
 	
-	import sys
 	import re
 	import pandas as pd
 	import numpy as np
