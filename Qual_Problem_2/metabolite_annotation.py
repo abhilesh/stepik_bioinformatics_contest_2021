@@ -4,7 +4,6 @@
 from decimal import Decimal
 from sys import maxsize
 
-
 def test_splitter(fin_lines):
 
 	"""
