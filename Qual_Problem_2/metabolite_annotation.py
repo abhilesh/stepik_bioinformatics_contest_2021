@@ -1,9 +1,6 @@
 # Script to solve Problem 2.Metabolite Annotation
 # Stepik Bioinformatics Contest 2021
 
-from decimal import Decimal
-from sys import maxsize
-
 def test_splitter(fin_lines):
 
 	"""
@@ -158,7 +155,7 @@ if __name__ == "__main__":
 
 	# Specify input and output files
 	fin_lines = open(Path(Path.cwd(), '5.txt'), 'r').readlines()
-	fout_file = open(Path(Path.cwd(), '5_np_2.out'), 'w')
+	fout_file = open(Path(Path.cwd(), '5.out'), 'w')
 
 	print(f'Number of tests: {fin_lines[0]}')
 
